@@ -1,0 +1,41 @@
+.fixed-footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.clickable{
+	cursor: pointer;
+	pointer-events: initial;
+}
+
+.track{
+	padding: 14px;
+}
+
+.track .artwork {
+	height: 100px;
+	width: 100px;
+}
+
+.track .title{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.playlist{
+	display: flex;
+	overflow-x: auto;
+}
+
+.playlist .track {
+	padding: 10px;
+	flex-shrink: 0;
+}
+
+.playlist .track .title {
+	color: white;
+	display: none;
+}
