@@ -72,7 +72,7 @@ var MusicApp = React.createClass({
 						<article className={ hidden }>
 					   <div className="row">
 					        <div className="col s12">
-					          <div className="card blue-grey darken-1">
+					          <div className="card blue-grey white darken-1">
 					            <div className="card-content white-text">
 					              <span className="card-title">Welcome!</span>
 					              <p>This is mixtape. It's super easy to use. <br/>

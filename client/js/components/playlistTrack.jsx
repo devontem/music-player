@@ -18,8 +18,8 @@ var PlaylistTrack = React.createClass({
 		var artwork_url = this.props.track.artwork_url || "http://1vyf1h2a37bmf88hy3i8ce9e.wpengine.netdna-cdn.com/wp-content/themes/public/img/noimgavailable.jpg";
 		return (
 		    <li className={ selectedClasses }>
-		      <img src={ artwork_url } alt="" className="circle" />
-		      <span onClick={ trackSelected } className="title">{this.props.track.title}</span>
+		      <img  onClick={ trackSelected } src={ artwork_url } alt="" className="circle" />
+		      <span onClick={ trackSelected } className="title clickable">{this.props.track.title}</span>
 		      <a href="#" onClick={ removeSong } className="secondary-content del"><i className="material-icons">delete</i></a>
 		    </li>
 		);

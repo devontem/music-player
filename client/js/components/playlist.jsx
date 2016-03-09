@@ -138,11 +138,11 @@ var Playlist = React.createClass({
 	render: function(){
 		var context = this;
 		var hiddenUL = "collection z-depth-1";
-		var selectedSong = "clickable";
+		var selectedSong = "";
 		var trackComponents = [];
 		var tracks = this.props.tracks || [];
 		var title = this.state.currentSong.title || "No song is playing.";
-		var artwork_url = this.state.currentSong.artwork_url || "http://1vyf1h2a37bmf88hy3i8ce9e.wpengine.netdna-cdn.com/wp-content/themes/public/img/noimgavailable.jpg";
+		var artwork_url = this.state.currentSong.artwork_url || "http://dl.hiapphere.com/data/icon/201410/HiAppHere_com_com.aniruddhc.acemusic.player.png";
 		
 		// Hiding playlist box if empty
 		if (this.props.tracks.length < 1){
