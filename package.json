@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines":{
+  "engines": {
     "node": "0.12.7"
   },
   "repository": {
@@ -21,7 +21,6 @@
   "homepage": "https://github.com/devontem/music-player#readme",
   "dependencies": {
     "express": "^4.13.4",
-    "jquery": "^2.2.1",
     "lodash": "^4.6.1",
     "path": "^0.12.7",
     "react": "^0.14.7",

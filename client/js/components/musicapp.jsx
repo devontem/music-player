@@ -2,7 +2,6 @@ var React = require('react');
 var SearchComponent = require('./search.jsx');
 var TrackSelector = require('./trackSelector.jsx');
 var Playlist = require('./playlist.jsx');
-var _ = require('lodash');
 
 var MusicApp = React.createClass({
 
