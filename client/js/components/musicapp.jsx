@@ -64,7 +64,7 @@ var MusicApp = React.createClass({
 			<section>
 
 				<div className="container row">
-					<section className="col s8 z-depth-1 main-right">
+					<section className="col s8 z-depth-1 white main-right">
 						<article className="text-center">
 							<SearchComponent onSearchResults={ this.updateSearchResults }/>
 						</article>
@@ -72,7 +72,7 @@ var MusicApp = React.createClass({
 						<article className={ hidden }>
 					   <div className="row">
 					        <div className="col s12">
-					          <div className="card blue-grey white darken-1">
+					          <div className="card blue-grey msg darken-1">
 					            <div className="card-content white-text">
 					              <span className="card-title">Welcome!</span>
 					              <p>This is mixtape. It's super easy to use. <br/>

@@ -52,6 +52,14 @@
 	text-align: center;
 }
 
+.msg{
+	margin-top: 20px;
+}
+
+.main-right{
+	min-height: 308px;
+}
+
 .songTitle{
   width: 200px;
   overflow: hidden;
