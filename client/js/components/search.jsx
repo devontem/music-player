@@ -46,19 +46,25 @@ var SearchComponent = React.createClass({
 		}
 
 		return (
-			<div className="row">
-				<div className="form-group has-feedback">
-					<input name="query"
-									placeholder="Search for a song"
-									type="text"
-									autoComplete="false"
-									className="form-control"
-									onChange={ this.updateQuery } 
-									value={ this.state.query }
-									/>
-					<span onClick={ this.clearSearch } className={ iconClasses }></span>
-				</div>
-			</div>
+			<nav className="searchNav orange darken-3">
+				<div className="nav-wrapper">
+		      <form>
+		        <div className="input-field">
+		          <input name="query"
+										id="search"
+										placeholder="Search for a song"
+										type="search"
+										autoComplete="false"
+										className="form-control"
+										onChange={ this.updateQuery } 
+										value={ this.state.query }
+										/>
+		          <label for="search"><i className="material-icons">search</i></label>
+		          <i onClick={ this.clearSearch } className="material-icons">close</i>
+		        </div>
+		      </form>
+		    </div>
+	    </nav>
 		)
 	}
 });
