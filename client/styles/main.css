@@ -63,6 +63,11 @@
  	display:none;
  }
 
- .del{
- 		top: 60px!important;
+ .header{
+ 	    margin: 0px 25px;
  }
+
+ .del{
+    top: 55px!important;
+    left: 0px!important;
+}

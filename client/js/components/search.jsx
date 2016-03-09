@@ -46,7 +46,7 @@ var SearchComponent = React.createClass({
 		}
 
 		return (
-			<nav className="searchNav orange darken-3">
+			<nav className="searchNav orange">
 				<div className="nav-wrapper">
 		      <form>
 		        <div className="input-field">
