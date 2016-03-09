@@ -59,7 +59,6 @@ var MusicApp = React.createClass({
 		if (queriedTracks.length > 0){
 			hidden += " hidden";
 		}
-		console.log('hidden', hidden, queriedTracks)
 
 		return (
 			<section>
